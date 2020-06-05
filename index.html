@@ -11,7 +11,14 @@
 
 <body>
   <div class="container">
-    <h1>Shopping List</h1>
+    <form id="js-shopping-list-title">
+      <h1>Shopping List</h1>
+      <label for="shopping-list-title">Add a Title</label>
+      <input type="text" name="shopping-list-title" class="js-shopping-list-title" placeholder="e.g.,Tuesday's lunch">
+      <button type="submit">Add name</button>
+    </form>
+
+  <!-- adds the list -->
     <form id="js-shopping-list-form">
       <label for="shopping-list-entry">Add an item</label>
       <input type="text" name="shopping-list-entry" class="js-shopping-list-entry" placeholder="e.g., broccoli">

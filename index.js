@@ -164,3 +164,4 @@ const handleShoppingList = function () {
 
 // when the page loads, call `handleShoppingList`
 $(handleShoppingList);
+
